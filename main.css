@@ -1,0 +1,26 @@
+body {
+  font-family: 'Arsenal', sans-serif;
+}
+
+/*You could choose the IDs but since this is such a small project, using element names can suffice*/
+h1, h2 {
+  text-transform: uppercase;
+}
+
+/*You could choose the IDs but since this is such a small project, using element names can suffice*/
+input {
+  padding:8px 12px;
+}
+
+button {
+  background-color: green;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+  color: #f5f5f5;
+  padding: 8px 14px
+}
+
+button:focus {
+  outline: none;
+}

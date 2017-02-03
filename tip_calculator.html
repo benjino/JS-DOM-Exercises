@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="tip_calculator_js.js"></script>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Arsenal:400,700" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <h1>Calculate Your Tip</h1>
+
+    <input type="text" id="amount" placeholder="Enter Total Amount" onkeypress="onkey(event)" />
+
+    <button onclick="alertAmount()">Calculate tip</button>
+
+    <h2 id="displayTotal">Total:</h2>
+
+    <h2 id="displayTip">Tip:</h2>
+
+  </body>
+</html>
